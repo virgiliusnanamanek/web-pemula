@@ -69,7 +69,7 @@ function closeForm() {
 function addNewBook() {
   const titles = title.value;
   const authors = author.value;
-  const years = year.value;
+  const years = Number(year.value);
   const isCompleted = checked.checked;
 
   const generateBookID = generateBookId();
