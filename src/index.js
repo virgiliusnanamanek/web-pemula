@@ -104,7 +104,7 @@ function makeNewBook(object) {
 
   const redBtn = document.createElement("button");
   redBtn.classList.add("deleteBtn");
-  redBtn.innerText = "Delete";
+  redBtn.innerHTML = '<i class="fa-solid fa-trash"></i>';
   redBtn.addEventListener("click", function () {
     deleteBookHandler(id);
   });
@@ -118,14 +118,14 @@ function makeNewBook(object) {
   article.append(buatJudul, buatPenulis, buatTahun, div);
 
   if (isCompleted) {
-    greenBtn.innerText = "Undone";
+    greenBtn.innerHTML = '<i class="fa-solid fa-book-open"></i>';
     greenBtn.classList.add("undoneBtn");
     greenBtn.addEventListener("click", function () {
       belumSelesai(id);
     });
     completeBookshelfList.append(article);
   } else {
-    greenBtn.innerText = "Done";
+    greenBtn.innerHTML = '<i class="fa-solid fa-square-check"></i>';
     greenBtn.classList.add("doneBtn");
     greenBtn.addEventListener("click", function () {
       sudahSelesai(id);
