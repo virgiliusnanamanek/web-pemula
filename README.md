@@ -16,10 +16,16 @@ git clone https://github.com/virgiliusnanamanek/web-pemula.git
 ```bash
 cd web-pemula
 ```
-4. Buka file `index.html` dengan browser
+4. Install dependencies
+
+```bash
+npm install
+```
+
+5. Buka file `index.html` dengan browser
   
   ```bash
-  firefox index.html
+  npm start
   ```
 
 ## Cara Menggunakan
