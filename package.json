@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "start": "start ./public/index.html",
+    "css": "npx tailwindcss -i ./src/input.css -o ./src/index.css --watch"
+  },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.3",
     "tailwindcss": "^3.1.8"
