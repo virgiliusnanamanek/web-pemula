@@ -7,25 +7,25 @@
     font-family: "QuickSand", sans-serif;
   }
   .deleteBtn {
-    @apply bg-red-500 text-white font-bold text-lg p-0 rounded;
+    @apply bg-red-500 text-white font-bold text-sm py-1 px-2 rounded;
   }
   .doneBtn {
-    @apply bg-green-500 text-white font-bold text-lg p-0 rounded;
+    @apply bg-green-500 text-white font-bold text-sm py-1 px-2 rounded;
   }
   .undoneBtn {
-    @apply bg-yellow-500 text-white font-bold text-lg p-0 rounded;
+    @apply bg-yellow-500 text-white font-bold text-sm py-1 px-2 rounded;
   }
   .action {
     @apply flex justify-start items-center gap-2;
   }
   .book_shelf {
-    @apply border-2 border-gray-300 rounded-lg p-4 w-full h-auto mb-4;
+    @apply shadow-md rounded-lg p-4 w-full h-auto mb-4;
   }
   .book_shelf h2 {
     @apply text-2xl font-bold text-gray-700;
   }
   .book_shelf .book_list .book_item {
-    @apply w-full  bg-white rounded-lg border border-gray-200 shadow mb-3 p-2;
+    @apply w-full  bg-white rounded-lg border border-gray-200 shadow-sm mb-3 p-2;
   }
   .book_shelf .book_list .book_item .book_item_title {
     @apply text-lg font-bold text-gray-700;
